@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face{
+    font-family: cool;
+    src: url(lazov.ttf);
+}
+@media screen, print {
+    src="$UICIDEBOY$ - 2ND HAND.mp3";
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+header{
+    font-family: cool;
+    text-align: center;
+
+}
+
+main{
+    margin-bottom: 10%;
+}
+
+.photo{
+    background-size: cover;
+    background: url(obrazy/gx4vs73e944z.png) no-repeat center ;
+    width: 100%;
+    height: 500px;
+}
+
+nav{
+    font-family: cool;
+    text-align: center;
+    font-size: 4vw;;
+}
+
+.space{
+    float: left;
+    padding-left:10%;
+    padding-right:10%;
+}
+
+h2{
+    font-family: cool;
+    text-align: center;
+    font-size: 4vw;
+}
+
+.biografia{
+    padding: 2%;
+    margin:auto;
+    font-size: 1.5vw;
+    color:black;
+    width: 80%;
+    height: 10%;
+    background-color: white;
+    filter: drop-shadow(0 -6mm 4mm rgb(160, 0, 210));
+    
+}
+
+.jpg1{
+    background-image: url(obrazy/giphy.gif);
+    width:auto;
+    height: 225px;
+
+}
+
+.l{
+    text-align: center;
+}
+
+.gal{
+ margin: 0 auto;
+ text-align: center;
+ max-height: 200px;
+ max-width: 1280px;
+ overflow:hidden;
+    
+}
+
+.gal:hover{
+    max-height: 720px;
+    max-width: 1280px;
+    height: 720px;
+    width: 1280px;
+   
+}
+
+.Kontakt{
+    font-family: cool;
+    text-align: center;
+    font-size: 24px;
+}
+
+.duze{
+    height: 200px;
+    width: 80%;
+}
+
+.help{
+     text-align: center;
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+}
+
+.galeria{
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
